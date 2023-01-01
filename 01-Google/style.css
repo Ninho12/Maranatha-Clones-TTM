@@ -20,6 +20,15 @@ header{
 header li{
     list-style-type: none;
     display: inline;
+    padding-right: 2px;
+    margin-right: 2px;
+}
+
+#perfil{
+    border: 1px solid #000;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
 }
 
 main{
@@ -33,28 +42,62 @@ main img{
     margin: 20px 0px;
 }
 
-.pesquisa{
-    width: 40%;
-    min-width: 200px;
-    max-width: 500px;
-    height: auto;
-    border: 1px solid #000;
-    padding: 0px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
 
 main input{
     padding: 5px;
     width: 90%;
     border: none;
-    position: relative;
-    top: 10px;
-    left: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    font-size: 17px;
+    padding: 5px;
 }
 
 button{
     padding: 10px;
     border: none;
     background-color: #eee;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #ddd;
+}
+
+footer h3{
+    padding: 10px;
+    font-size: 15px;
+    color: #777;
+    border-bottom: 1px solid #aaa;
+}
+
+footer ul{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+footer li{
+    list-style-type: none;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
