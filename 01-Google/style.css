@@ -4,11 +4,16 @@
 
 */
 
+/* Deixando as margens e os espaçamentos 0px */
 *{
     padding: 0px;
     margin: 0px;
 }
 
+/* No header é o cabeçalho
+    Utilizo display flex para 
+    deixar o site responsivo
+*/
 header{
     display: flex;
     justify-content: flex-end;
