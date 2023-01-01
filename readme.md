@@ -2,6 +2,8 @@
 
 Esse projeto é um projeto simples mas com ele os desenvolvedores tem como ganhar mais experiencia tanto com html/css como também com git/github.
 
+O projeto consiste em criar clones de sites famosos para ganharmos pratica na criação de paginas html/css.
+
 ## Com esse projeto
 
 Com esse projeto você vai ganhar experiencia e vai poder analizar os codigos dos colegas e sugerir melhorias e também vai receber feedback do seu codigo.
