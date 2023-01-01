@@ -1,0 +1,11 @@
+{
+  "name": "maranatha-clones-ttm",
+  "version": "1.0.0",
+  "description": "É um projeto para treino de html e css clonando sites famosos.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "João Paulo Sena Padilha",
+  "license": "MIT"
+}
