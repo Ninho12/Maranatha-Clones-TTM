@@ -1,0 +1,68 @@
+/*
+    Estilização das pagina do 
+    Facebook.
+
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.mensagem{
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+    margin-right: 25px;
+
+}
+
+.mensagem h1{
+    color: rgb(49, 98, 206);
+    font-size: 35px;
+}
+
+.mensagem p{
+    font-size: 20px;
+}
+
+.entrar{
+    width: 50%;
+    min-width: 200px;
+    max-width: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: -10px 10px 10px #555;
+    margin-right: 20px;
+}
+
+.entrar input{
+    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.entrar button{
+    background-color: rgb(49, 98, 206);
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    padding: 10px 0px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.entrar hr{
+    margin-bottom: 20px;
+    border-bottom: 1px solid #aaa;
+}
