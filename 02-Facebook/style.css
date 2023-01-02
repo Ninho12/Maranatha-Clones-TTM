@@ -13,29 +13,38 @@ body{
     background-color: #eee;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     padding-top: 100px;
     padding-left: 50px;
 }
 
 .mensagem{
-    width: 50%;
+    width: 40%;
     min-width: 200px;
     max-width: 500px;
     margin-right: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
 
 }
 
 .mensagem h1{
     color: rgb(49, 98, 206);
-    font-size: 35px;
+    font-size: 50px;
+    width: 100%;
+    text-align: start;
 }
 
 .mensagem p{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .entrar{
-    width: 50%;
+    width: 40%;
     min-width: 200px;
     max-width: 500px;
     background-color: white;
@@ -44,12 +53,15 @@ body{
     padding: 20px;
     box-shadow: -10px 10px 10px #555;
     margin-right: 20px;
+    border-radius: 10px;
 }
 
 .entrar input{
     margin-bottom: 20px;
-    font-size: 20px;
-    padding: 10px;
+    font-size: 18px;
+    padding: 15px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
 }
 
 .entrar button{
@@ -62,7 +74,23 @@ body{
     margin-bottom: 20px;
 }
 
+button:hover{
+    cursor: pointer;
+}
+
+.entrar a{
+    text-align: center;
+    margin: 10px 0px;
+    color: rgb(49, 98, 206);
+}
+
 .entrar hr{
     margin-bottom: 20px;
     border-bottom: 1px solid #aaa;
+}
+
+#cadastrar{
+    background-color: green;
+    width: 200px;
+    margin: 10px auto;
 }
